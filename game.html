@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <section id="scoreContain">
+                    <h1>YOU<span id="playerScore" >0</span>VS<span id="computerScore" >0</span>COM</h1>
+            </section>
+            <section id="blattleContain">
+                <section class="areaGame">
+                    <img src="" alt="" id="playerop">
+                </section>
+                <section class="areaGame">
+                    <img src="" alt="" id="computerop">
+                </section>
+            </section>
+            <section id="cardsContain">
+                <h1 id="result"></h1>
+                <section id="cardsArea">
+                    <section class="card" onclick="win('0')">
+                        <img src="0.png" alt="">
+                        <h1 class="cardName">PEDRA</h1>
+                    </section>
+                    <section class="card" onclick="win('1')">
+                        <img src="1.png" alt="">
+                        <h1 class="cardName">PAPEL</h1>
+                    </section>
+                    <section class="card" onclick="win('2')">
+                        <img src="2.png" alt="">
+                        <h1 class="cardName">TESOURA</h1>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

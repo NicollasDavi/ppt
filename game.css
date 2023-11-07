@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cardsContain{
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#scoreContain{
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+}
+
+span{
+    margin: 0 1em 0 1em;
+}
+
+#cardsArea{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card img{
+    width: 50%;
+    margin: 5% 0 0 0;
+}
+
+.cardName{
+    color: aliceblue;
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+#result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8em;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.areaGame{
+    width: 25%;
+    margin: 10px;
+}
+
+#blattleContain{
+    display: flex;
+    justify-content: center;
+}
+
+.areaGame img{
+    width: 100%;
+} 
