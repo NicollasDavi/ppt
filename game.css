@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #1DA7F2;
+}
+
 #cardsContain{
     width: 100vw;
     height: 30vh;
@@ -36,7 +40,7 @@ span{
 .card{
     width: 30%;
     height: 100%;
-    background-color: red;
+    background-color: #0006F0;
     border-radius: 20px;
     cursor: pointer;
     text-align: center;

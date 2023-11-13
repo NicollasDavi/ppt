@@ -8,17 +8,19 @@
     position: relative;
     width: 100vw;
     height: 100vh;
+    background-color: #1DA7F2;
 }
 
 #containButtons {
     position: absolute;
-    background-color: aqua;
+    background-color: #4A00F0;
     width: 50%;
     height: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    border-radius: 14px;
+    box-shadow: #0006F0 1px 1px 10px 1px;
 }
 
 #section-hover {
@@ -27,8 +29,8 @@
 }
 
 #hover {
-    width: 5%;
-    height: 40%;
+    width: 0px;
+    height: 0px;
     margin: 2% 0 0 93%;
 }
 
@@ -40,7 +42,7 @@
     position: absolute;
     width: 80%;
     height: 80%;
-    background-color: rgba(128, 128, 128, 0.774);
+    background-color: rgb(59, 59, 59);
     display: none;
     left: 15%;
     top: 10%;
@@ -50,11 +52,11 @@
 #contentTitle{
     width: 100%;
     height: 60%;
+    text-align: center;
 }
 
 #title{
     color: aliceblue;
-    margin-left: 25%;
     font-size: 2em;
 }
 
@@ -67,25 +69,25 @@
 }
 
 #section-play button{
-    width: 10%;
-    background-color: aliceblue;
+    width: 15%;
+    height: 100%;
+    background-color: #1DA7F2;
     margin-left: 45%;
+    text-decoration: none;
+    border: #0006F0 solid 2px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#section-play button:hover{
+    background-color: #A318F2;
+    border: #ffffff solid 2px;
+    box-shadow: #A318F2 1px 1px 10px 1px;
 
 }
 
 
-#gameArea{
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    display: none;
+#section-play button a{
+    color: #fff;
+    text-decoration: none;
 }
-
-#gameArea div{
-    background-color: red;
-    width: 10vw;
-    height: 100vh;
-    display: block;
-}
-
-
